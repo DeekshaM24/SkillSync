@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f7fb;
+  --foreground: #12213c;
+  --muted: #64748b;
+  --primary: #1e40af;
+  --line: #e4eaf2;
+}
+
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Inter, ui-sans-serif, system-ui, sans-serif;
+}
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+.dark {
+  --background: #0b1220;
+  --foreground: #edf3ff;
+  --muted: #9aa9c0;
+  --line: #263247;
+}
+.surface { background: white; border: 1px solid var(--line); }
+.dark .surface { background: #111c2d; }
+.text-muted { color: var(--muted); }
+.auth-bg {
+  background-size: cover;
+  background-position: center;
+  animation: campus-drift 32s ease-in-out infinite alternate;
+}
+@keyframes campus-drift {
+  0% { background-position: 45% center; }
+  100% { background-position: 56% center; }
+}
+.ring-progress {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; }
+}
