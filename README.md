@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SkillSync
 
 SkillSync is a responsive placement-training LMS built with Next.js App Router, TypeScript, Tailwind CSS, Supabase Auth/Postgres/Storage, and Recharts. Phase 1 includes authentication, role onboarding, role-protected dashboards, institution administration, trainer test assignment, demo records, and row-level security.
@@ -72,3 +73,7 @@ npm run build
 Later phase-specific interactive engines (timed MCQ sessions, Judge0 execution, resume analysis, and AI interviews) are not part of this Phase 1 implementation.
 
 Bundled background photography uses Pexels' free-to-use license: campus (photo 256490), interview (photo 3760067), collaboration (photo 3184360), and coding (photo 1181244).
+=======
+# Rentora
+Rentora is a rental discovery platform that helps users find and compare properties, connect with property owners, discover compatible roommates, save favorites, schedule property visits, and explore premium listing services through an elegant, user-friendly interface.
+>>>>>>> a3d9b3447a3f915f3929ad2d3636926286f4912e
